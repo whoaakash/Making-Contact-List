@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+#page-heading {
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+ul{
+    list-style: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    transition: background-color 0.3s ;
+}
+.item {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.container:hover .content{
+    background-color: grey;
+}
+
+.content{
+    width: 375px;
+    height: 40px;
+    background-color: rgb(111, 111, 235);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}

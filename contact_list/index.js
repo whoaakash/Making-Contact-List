@@ -7,7 +7,9 @@ const app = express();
 app.set('view engine', 'ejs');
 app.set('Views', path.join(__dirname, 'Views'));
 app.use(express.urlencoded());
+app.use(express.static('assets'));
 
+/*
 //Middleware 1
 app.use(function (req, res, next) {
     console.log('Middleware 1 is called');
@@ -19,6 +21,7 @@ app.use(function (req, res, next) {
     console.log('Middleware 2 is called');
     next();
 });
+*/
 
 var contactList = [
     {

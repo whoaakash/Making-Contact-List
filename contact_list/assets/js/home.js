@@ -1,0 +1,1 @@
+console.log('My sript is loaded');
