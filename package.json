@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "a basic contact list to learn express js",
   "main": "index.js",
+  "type" : "commonjs",
   "scripts": {
+    "start": "nodemon -r dotenv/config --experimental-json-modules src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Shivam",
@@ -11,6 +13,7 @@
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "nodemon": "^3.0.3"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
   }
 }
